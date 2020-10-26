@@ -1,2 +1,7 @@
-**/node_modules
+Backend/node_modules
 **/.env
+node_modules
+Frontend/node_modules
+Frontend/.DS_Store
+**/.cph
+**/.DS_Store
