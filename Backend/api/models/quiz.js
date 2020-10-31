@@ -12,10 +12,10 @@ const QuizSchema = new mongoose.Schema({
 	usersParticipated: [
 		{
 			userId: { type: mongoose.Schema.Types.ObjectID, ref: "User" },
-			marks:{ type:Number },
+			marks:{type:Number},
 			responses:[],
-      timeEnded:{ type:Number },
-      timeStarted:{ type:Number }
+      timeEnded:{type:Number},
+      timeStarted:{type:Number}
 		},
 	],
 	usersEnrolled: [

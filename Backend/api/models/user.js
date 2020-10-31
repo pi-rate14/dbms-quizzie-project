@@ -27,7 +27,7 @@ const userSchema = mongoose.Schema({
 			marks: { type: Number },
 			responses: [],
       timeEnded: { type: Number },
-      timeStarted:{ type:Number }
+      timeStarted:{type:Number}
 		},
 	],
 	quizzesStarted: [
